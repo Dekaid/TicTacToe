@@ -1,0 +1,53 @@
+body {
+    font-family: serif;
+    background-color: #196b63;
+}
+
+.jumbotron {
+    background-color: #21a57b;
+}
+
+.game-title {
+    font-size: 100px;
+    color: #ef9c3a;
+    margin: 10px auto;
+}
+
+.game-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 430px;
+    margin: 10px auto;
+    background-color: #4aa5ce;
+    color: #e65273;
+}
+
+.cell {
+    width: 140px;
+    height: 140px;
+    box-shadow: 2px 2px 2px 2px #e65273;
+    border: 2px solid #e65273;
+    cursor: pointer;
+    line-height: 140px;
+    font-size: 80px;
+    font-family: cursive;
+
+}
+
+.status,#turns {
+    font-size: 75px;
+    color: #ef9c3a;
+    margin: 10px auto;
+}
+
+.restart {
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #4aa5ce;
+    color: #196b63;
+    border: 4px solid #196b63;
+    margin: 20px auto;
+    width: 225px;
+    height: 75px;
+}
+ 

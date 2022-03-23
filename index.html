@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <title>Tic-Tac-Toe</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="text-center jumbotron border-3 rounded border border-warning">
+            <h1 class="game-title text-uppercase">Tic-Tac-Toe</h1>
+
+            <h3 id="turns">Turns: 9 </h3>
+
+            <div class="game-container">
+                <div cell-index="0" class="cell"></div>
+                <div cell-index="1" class="cell"></div>
+                <div cell-index="2" class="cell"></div>
+                <div cell-index="3" class="cell"></div>
+                <div cell-index="4" class="cell"></div>
+                <div cell-index="5" class="cell"></div>
+                <div cell-index="6" class="cell"></div>
+                <div cell-index="7" class="cell"></div>
+                <div cell-index="8" class="cell"></div>
+            </div>
+
+            <h2 class="status">Player X's Turn</h2>
+
+            <button class="restart">Restart Game</button>
+        </div>
+    </div>
+
+    <script src="scripts/view.js"></script>
+    <script src="scripts/model.js"></script>
+    <script src="scripts/controller.js"></script>
+    <script src="scripts/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
